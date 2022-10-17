@@ -3,10 +3,22 @@
 # Stretch goal - Experiment with formatting your print statement to make it interesting 'print("price: " + price)'
 
 
-string = "printed string"
-print(string)
+from email import message
 
-int = 5
+
+string_message = "hello world"
+print(string_message)
+
+price = 5
 print(int)
 
-print(f"price = ${int} for !{string}! to be your logo on a shirt")
+print(f"price = ${price} for !{string_message}! to be your logo on a shirt")
+print("message is " + (string_message))
+
+print("THE PRICE IS " +  str(price))
+other_input = int(input("please enter a number: "))
+
+customer_dog = int(input("How old is your dog in human years? "))
+dog_name = str(input("what is your dogs name ? "))
+custromer_dog_years = customer_dog * 7
+print(f"{dog_name} is {custromer_dog_years}" )
