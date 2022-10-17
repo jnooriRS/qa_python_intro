@@ -22,3 +22,7 @@ customer_dog = int(input("How old is your dog in human years? "))
 dog_name = str(input("what is your dogs name ? "))
 custromer_dog_years = customer_dog * 7
 print(f"{dog_name} is {custromer_dog_years}" )
+
+#else v elif
+#elif is a statement to comapre
+#else is a defualt response
