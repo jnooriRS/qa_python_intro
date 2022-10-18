@@ -6,8 +6,29 @@ grades = data.split(",")
 updated_list = list(map(int,grades))
 # print(updated_list)
 updated_list.sort()
-print(updated_list)
+#print(updated_list)
 min_number= min(updated_list)
 #print(min_number)
 max_number= max(updated_list)
 # print(max_number)
+averageGrade = sum(updated_list) / len(updated_list)
+averageGrade_2 = (round(averageGrade, 2))
+#print(averageGrade_2)
+#rint(updated_list)
+average_mean = statistics.mean(updated_list)
+print(average_mean)
+average_median = statistics.median(updated_list)
+print(average_median)
+
+
+
+
+
+
+
+
+#averageGradeQuick = statistics.mean(gradesInt)
+#print(averageGradeQuick)
+
+#medianGrade = statistics.median(gradesInt)
+#print(medianGrade)
