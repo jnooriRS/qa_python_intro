@@ -1,4 +1,3 @@
-
 mark_input =int(input("Student mark >>>>"))
 if mark_input < 1 or mark_input > 100:
     print("Error: marks must be between 1 and 100")
