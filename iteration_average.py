@@ -1,6 +1,3 @@
-from re import I
-
-
 math_result = int(input("What is your Math reult "))
 english_result = int(input("What is your English reult "))
 ict_result = int(input("What is your ICT reult "))
