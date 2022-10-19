@@ -16,8 +16,21 @@ Pythagoras Calculator:
         side_b = int(input("Side B "))
         side_c = int(input("Side C "))
         side_a = round(sqrt((side_c * side_c) - (side_b * side_b)), 2)
-    print(f"The result of side A is {side_a}")
+        print(f"The result of side A is {side_a}")
 
-    leve_message= str(input("Do you want to leve YES or NO "))
+    elif calculator_display == 2:
+        side_a = int(input("Side A "))
+        side_c = int(input("Side C "))
+        side_b = round(sqrt((side_a * side_a) - (side_c * side_c)), 2)
+        print(f"The result of side A is {side_b}")
+    
+    elif calculator_display == 3:
+        side_a = int(input("Side A "))
+        side_b = int(input("Side B "))
+        side_c = round(sqrt((side_a * side_a) - (side_b * side_b)), 2)
+        print(f"The result of side C is {side_c}")
+
+    leve_message= str(input("Do you want to leve YES or NO ")).upper()
+    
     if leve_message == "YES":
         break
