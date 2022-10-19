@@ -34,3 +34,7 @@ Pythagoras Calculator:
     
     if leve_message == "YES":
         break
+
+    # sqrt = squre root as we need to reverse result square
+
+    #https://www.youtube.com/watch?v=JCG4HHGVqiY
