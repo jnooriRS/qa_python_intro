@@ -14,6 +14,3 @@ for age in ages:
 #Tip: There are other ways of achieving this task, but one way is to use a for 
 #loop that uses the len() function to examine each item and then use the 
 #del() function to remove an item at certain index.
-
-for age in ages:
-    
