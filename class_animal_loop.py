@@ -17,10 +17,6 @@ print(animal2)
 print(getattr(animal1, 'type'))
 print(animal1.type)
 
-
-chosen_attr = "vegan"
-print(getattr(animal1, chosen_attr))
-
 # hasattr - checks if this object contains this attribute (returns True or False)
 print(hasattr(animal2, 'location')) # Used to check if an attribute is there for avoiding exceptions 
 
