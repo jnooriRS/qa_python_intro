@@ -16,5 +16,5 @@ def create_connection(dbName):
 # Cursor to execute command and create table in string format
 
 def create_table(cursor, query):
-    cursor.execute(query): # query will be table
+    cursor.execute(query) # Create our table
     return True
