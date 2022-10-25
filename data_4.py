@@ -21,3 +21,5 @@ conn.commit()
 
 #xercise - Using sqlite create a database called "new-db" and create a table of your choice with 3+ fields and 1 primary key
 # Using the "SELECT name FROM sqlite_master" print out the name of your table 
+
+# user this as refrence for DBs https://pynative.com/python-mysql-insert-data-into-database-table/#:~:text=Insert%20a%20Single%20Row%20into%20MySQL%20table%20from,the%20cursor%20object%20and%20database%20connection%20object%20
