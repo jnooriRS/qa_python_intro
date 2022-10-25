@@ -41,8 +41,8 @@ def create_row_console():
 
 def delete_record_console():
     name = input("Please enter name to delete: ")
-    print(delete_record(conn, name))
-
-    delete_record(conn, name)
+    user_input=input(str"Are you sure you want to delete? : YES/NO")
+    if user_input == "YES":
+        print(delete_record(conn, name))
 
 user_input()
