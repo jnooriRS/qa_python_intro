@@ -27,11 +27,9 @@ def user_input():
     elif choice == "2":
         get_all_data()
     elif choice == "3":
-        delete_record()
+        delete_record_console()
     elif choice == "4":
         print(single_record)
-
-
 
 def create_row_console():
     id = input("Please enter people id: ")
@@ -40,5 +38,11 @@ def create_row_console():
     query = f"INSERT INTO people VALUES({id}, '{height}', {name});"
 
     create_row(conn, query)
+
+def delete_record_console():
+    name = input("Please enter name to delete: ")
+    print(delete_record(conn, name))
+
+    delete_record(conn, name)
 
 user_input()
