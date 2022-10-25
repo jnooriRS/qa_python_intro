@@ -19,3 +19,4 @@ print(lines)
 file.close()
 
 # Many ways to read a line see this- important https://pynative.com/python-read-specific-lines-from-a-file/
+
